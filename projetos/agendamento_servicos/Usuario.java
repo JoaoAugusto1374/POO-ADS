@@ -18,8 +18,8 @@ public class Usuario {
         System.out.println("telefone: " + telefone);
         System.out.println("Prestador escolhido: " + prest.getNome());
         System.out.println("Serviço é: " + prest.getServico());
-        System.out.println("O valor é de: " + prest.getValorHora());
-        System.out.println("A data e hora do serviço é: " + dataHora);
+        System.out.println("O valor hora é de: " + prest.getValorHora());
+        System.out.println("A data e a hora do serviço é: " + dataHora);
     }
 
     

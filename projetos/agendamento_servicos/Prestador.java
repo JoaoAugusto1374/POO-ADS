@@ -13,7 +13,10 @@ public class Prestador {
         valorHora = v;
         
     }
-    
+
+    public String toString() {
+        return "Nome: " + nome + ", Serviço: " + servico + ", Valor hora: R$" + valorHora;
+    }
     
     public void setNome(String n) {
         nome = n;
