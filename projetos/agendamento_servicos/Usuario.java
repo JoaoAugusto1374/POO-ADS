@@ -22,6 +22,4 @@ public class Usuario {
         System.out.println("A data e a hora do serviço é: " + dataHora);
     }
 
-    
-
 }

@@ -28,6 +28,5 @@ public class AgendaTest {
         String dataHora = sc.nextLine();
 
         user1.agendarServicos(prestadorEscolhido, dataHora);
-
     }
 }
