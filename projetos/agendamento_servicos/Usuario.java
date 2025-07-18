@@ -16,9 +16,9 @@ public class Usuario {
         System.out.println("Nome: " + nome);
         System.out.println("email: " + email);
         System.out.println("telefone: " + telefone);
-        System.out.println("Prestador escolhido: " + prest.nome);
-        System.out.println("Serviço é: " + prest.servico);
-        System.out.println("O valor é de: " + prest.valorHora);
+        System.out.println("Prestador escolhido: " + prest.getNome());
+        System.out.println("Serviço é: " + prest.getServico());
+        System.out.println("O valor é de: " + prest.getValorHora());
         System.out.println("A data e hora do serviço é: " + dataHora);
     }
 
