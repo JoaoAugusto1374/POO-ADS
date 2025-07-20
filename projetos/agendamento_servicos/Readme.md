@@ -1,52 +1,19 @@
-# Mini projeto de Agendamento de Serviços
-  Objetos da Aplicação
-1. Usuário
-Atributos:
+## Mini projeto de Agendamento de Serviços
+ -- Requisitos:
+  - Classe Prestador
+  - Classe Usuário
+  - Classe de teste
 
-nome: nome do usuário
+ -- Todos os requisitos foram cumpridos e o projeto mostra na tela um agendamento.
 
-email: e-mail do usuário
+# Como Utilizar?
+  - Execute o projeto com uma IDE ou compile o projeto e logo após execute com os comandos JavaC e .Java.
+  - O projeto irá cadastrar o nome, email e telefone do usuário.
+  - Será mostrado na tela os prestadores disponíveis, o que for escolhido será utilizado para agendar.
+  - Digite a data e hora que quer agendar.
+  - Logo após o projeto irá utilizar o método agendarServiços e mostrará na tela o agendamento confirmado com os dados do usuário e informações do prestador.
 
-telefone: número de telefone
-
-Comportamentos (Métodos):
-
-agendarServicos(prestador, dataHora): agenda um serviço com um prestador em uma data e hora específicas
-
-2. Prestador
-Atributos:
-
-nome: nome do prestador
-
-servico: tipo de serviço oferecido (ex: Encanador, Pedreiro)
-
-preco: valor cobrado pelo serviço
-
-Comportamentos (Métodos):
-
-toString(): exibe uma descrição formatada do prestador com seus dados
-
-🧑‍💻 Interação do Usuário com a Aplicação
-Ao iniciar o programa:
-
-O usuário é saudado e é solicitado a informar:
-
-Seu nome
-
-Seu e-mail
-
-Seu telefone
-
-O sistema exibe uma lista com os prestadores disponíveis, incluindo nome, tipo de serviço e preço.
-
-O usuário escolhe um dos prestadores (digitando 1 ou 2).
-
-O sistema pede para o usuário digitar data e hora do agendamento.
-
-O agendamento é registrado e uma mensagem de confirmação é exibida.
-
-
-## Possíveis melhorias
+# Possíveis melhorias
   - Criar mais métodos para disponibilizar maior gama de possibilidades e descentralizar o código.
   - Armazenar os prestadores em um banco de dados.
   - Ofertar escolha por serviços.
