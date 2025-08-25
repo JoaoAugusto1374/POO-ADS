@@ -9,6 +9,10 @@ public class Relogio {
         this(0,0,0);
     }
 
+    public Relogio(int hora, int minuto){
+        this(hora, minuto,0);
+    }
+
     public Relogio(int hora, int minuto, int segundo) {
         setHora(hora);
         setMinuto(minuto);
@@ -54,7 +58,17 @@ public class Relogio {
     }
 
     public void incrementarSegundo() {
-        setSegundo(this.segundo + 1);
-    }
+    segundo++;
+    if (segundo == 60) {
+        segundo = 0;
+        minuto++;
+        if (minuto == 60) {
+            minuto = 0;
+            hora++;
+            if (hora == 24) {
+                hora = 0;
+            }
+        }
+    } }
 
 }
