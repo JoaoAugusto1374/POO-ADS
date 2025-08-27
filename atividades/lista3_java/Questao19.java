@@ -14,7 +14,6 @@ public class Questao19 {
         } else if (mes < 1 || mes > 12) {
             throw new IllegalArgumentException("mês inválido" + mes);
         }
-            
         
-    }
+    } 
 }
