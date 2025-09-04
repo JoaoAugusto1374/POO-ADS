@@ -26,9 +26,9 @@ public class Turma {
         alunos.add(a2);
         alunos.add(a3);
 
-        for ( Arrays al : alunos) {
+        for ( Arrays al : alunos) 
             System.out.println("Aluno" + al.calcularMedia() + al.getSituacao());
-        }
+        
 
         sc.close();
     }
