@@ -1,7 +1,5 @@
 package projetos.livraria;
 
-import java.util.List;
-
 public class Livro {
     private String titulo;
 	private String autor;
@@ -19,18 +17,15 @@ public class Livro {
    	 
 	}
     
-	public String exibirDetalhes(Livro l) {
-    	String s = String.format("Titulo - %s\n; Autor - %s\n; ano - %d\n; preço - %.2f\n; estoque - %d;", l.getTitulo(), l.getAutor()
-    	, l.getAno(), l.getPrecoBase(), l.getEstoque());
-    	return s;
-	}
+	public String exibirDetalhes() {
+        return String.format(
+            "Título: %s\nAutor: %s\nAno: %d\nPreço: R$ %.2f\nEstoque: %d",
+            this.titulo, this.autor, this.ano, this.precoBase, this.estoque
+        );
+    }
     
 	public double calcularPrecoVenda() {
     	return precoBase;
-	}
-    
-	public void funcao(List<Livro> l) {
-    	System.out.printf("Titulo - %s\n; preço final - $.2f;", titulo, calcularPrecoVenda());
 	}
     
 	public String getTitulo() {

@@ -3,7 +3,7 @@ package projetos.livraria;
 public class LivroDigital extends Livro {
     	private double tamanhoArquivoMb;
     
-	public LivroDigital(double tamanhoArquivoMB, String titulo, String autor, int ano, float precoBase, int estoque) {
+	public LivroDigital(double tamanhoArquivoMb, String titulo, String autor, int ano, float precoBase, int estoque) {
     	super(titulo, autor, ano, precoBase, estoque);
     	this.tamanhoArquivoMb = tamanhoArquivoMb;
 	}
@@ -17,8 +17,8 @@ public class LivroDigital extends Livro {
 	}
     
 	@Override
-	public String exibirDetalhes(Livro l) {
-    	return super.exibirDetalhes(l) + ", tamanho do arquivo - " + tamanhoArquivoMb;
+	public String exibirDetalhes() {
+    	return super.exibirDetalhes() + ", tamanho do arquivo - " + tamanhoArquivoMb;
 	}
     
 	@Override

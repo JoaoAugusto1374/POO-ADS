@@ -9,8 +9,8 @@ public class LivroFisico extends Livro{
 	}
 
     @Override
-    public String exibirDetalhes(Livro l) {
-        return super.exibirDetalhes(l) + ", peso - " + pesoGramas;
+    public String exibirDetalhes() {
+        return super.exibirDetalhes() + ", peso - " + pesoGramas;
     } 
     
 	@Override
