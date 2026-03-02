@@ -2,7 +2,7 @@ package padroes.iterator;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//coleção concreta da playlist de musicas que implemnta a interface playlist
 public class PlaylistConcreta implements Playlist{
 
     private List<Musica> musicas = new ArrayList<>();
