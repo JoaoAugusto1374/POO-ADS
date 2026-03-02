@@ -1,5 +1,5 @@
 package padroes.iterator;
-
+//iterador das musicas favoritas
 public class IteradorFavoritas implements Iterador{
     private PlaylistConcreta colecao;
     private int state;

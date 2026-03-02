@@ -1,5 +1,5 @@
 package padroes.iterator;
-
+//classe para ter registro das musicas
 public class Musica {
     private String nome;
     private boolean favorita = false;
@@ -16,5 +16,5 @@ public class Musica {
     public boolean isFavorita() {
         return favorita;
     }
-    
+
 }

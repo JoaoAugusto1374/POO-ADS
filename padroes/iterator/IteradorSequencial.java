@@ -1,5 +1,5 @@
 package padroes.iterator;
-
+//iterador das musicas sequenciais
 import java.util.ArrayList;
 import java.util.List;
 

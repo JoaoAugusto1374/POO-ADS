@@ -1,5 +1,5 @@
 package padroes.iterator;
-
+//Classe cliente que usa o padrão
 public class Cliente {
     public static void main(String[] args) {
         PlaylistConcreta playlist = new PlaylistConcreta();
